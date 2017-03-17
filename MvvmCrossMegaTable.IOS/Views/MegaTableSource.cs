@@ -11,7 +11,7 @@ using UIKit;
 
 namespace MvvmCrossMegaTable.IOS.Views
 {
-    // Todo make MegaTableSource a base class for reuse
+    // FUTURE make MegaTableSource a base class for reuse
     public class MegaTableSource : MvxTableViewSource
     {
         private IDisposable _subscriptionSectionNotify;
